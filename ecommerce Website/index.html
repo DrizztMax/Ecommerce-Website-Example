@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cre8ive to the Max</title>
+</head>
+<body>
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/name.png" alt="" width="150" height="50">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="30" height="30" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Time Offer</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">CUSTOM SHIRTS</h3>
+            <h3 class="menuItem">CUSTOM HATS</h3>
+            <h3 class="menuItem">CUSTOM MUGS</h3>
+            <h3 class="menuItem">CUSTOM MOUSEPADS</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/shirt.jpg" width="500" height="550" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CUSTOM SHIRTS</br>NOW</br>AVAILABLE</h1>
+                <h2 class="sliderPrice">$40</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hat.jpg" width="500" height="550" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CUSTOM HATS</br>NOW</br>AVAILABLE</h1>
+                <h2 class="sliderPrice">$30</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/mug.jpg" width="500" height="550" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CUSTOM MUGS</br>NOW</br>AVAILABLE</h1>
+                <h2 class="sliderPrice">$25</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/mousepad.jpg" width="500" height="550" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CUSTOM MOUSEPADS</br>NOW</br>AVAILABLE</h1>
+                <h2 class="sliderPrice">$70</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class = "featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img src="./img/return.png" alt="" class="featureIcon">
+            <span class = "featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img src="./img/gift.png" alt="" class="featureIcon">
+            <span class = "featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img src="./img/contact.png" alt="" class="featureIcon">
+            <span class = "featureTitle">CONTACT US</span>
+            <span class="featureDesc">Keep in touchvia email and support systems.</span>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img src="./img/shirt.jpg" alt="" width="500" height="700" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">CUSTOM SHIRTS</h1>
+            <h2 class="productPrice">$40</h2>
+            <p class="productDesc">Import any image and text and we will help you create your vision of a shirt a reality</p>
+        
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">Small</div>
+                <div class="size">Medium</div>
+                <div class="size">Large</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 555 555 5555" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="123 Elm St" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" class="cardIcon">
+                <img src="./img/mastercard.png" width="40" class="cardIcon">
+            </div>
+            <input type="password" placeholder="Card Number" class="payInput">
+            <div class="cardInfo">
+                <input type="text" placeholder="MM" class= "payInput sm">
+                <input type="text" placeholder="YYYY" class= "payInput sm">
+                <input type="text" placeholder="CVV" class= "payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself</h1>
+            <img src="./img/model.jpg" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="./img/model2.jpg" alt="" class="galleryImg">
+            <h1 class="galleryTitle">Dream Big</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Your Imagination Come True</h1>
+            <img src="./img/model3.jpg" alt="" class="galleryImg">
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
